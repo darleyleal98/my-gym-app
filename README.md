@@ -15,7 +15,7 @@
    Dicas para uma alimentação para treinos com halteres:
 </p>
 <br>
-<img src="<p>
+<p>
    Dicas para uma alimentação mais saudável:
 </p>
 <br>
