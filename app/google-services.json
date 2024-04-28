@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "612430147877",
+    "project_id": "mygym-15fcc",
+    "storage_bucket": "mygym-15fcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612430147877:android:819497bfdba0d49da46acc",
+        "android_client_info": {
+          "package_name": "com.darleyleal.mygym"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCK18f8MQnezHfhZD_QZhbegqgOg1Ge1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

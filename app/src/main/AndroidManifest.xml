@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ExtraText">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_anastase"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gym_svgrepo_com__1_"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyGym"
+        tools:targetApi="31">
+        <activity
+            android:name=".view.NovoExercicioGymActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.crud.DeletarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.crud.AtualizarTreinoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.TreinoMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.dicas.AerobicoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.dicas.AbdominalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.dicas.TreinoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.dicas.AlimentacaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ExercicioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

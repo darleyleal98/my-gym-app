@@ -1,0 +1,194 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.WelcomeActivity">
+
+    <TextView
+        android:id="@+id/text_name_app"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="@font/cabin"
+        android:padding="16dp"
+        android:text="@string/my_gym"
+        android:textColor="@color/brown_800"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_phrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/cabin"
+        android:text="@string/phrase"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_name_app" />
+
+    <TextView
+        android:id="@+id/phrase_habit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/cabin"
+        android:text="@string/dicas"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_phrase"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:id="@+id/linear_habits1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phrase_habit">
+
+        <ImageView
+            android:id="@+id/image_alimentacao"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/ic_alimentacao" />
+
+        <ImageView
+            android:id="@+id/image_treino_anastase"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_anastase"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_alimentacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:fontFamily="@font/cabin"
+        android:gravity="center"
+        android:text="@string/_10_dicas_alimentacao"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/linear_habits1"
+        app:layout_constraintTop_toBottomOf="@id/linear_habits1"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/text_treino_anastase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:fontFamily="@font/cabin"
+        android:gravity="center"
+        android:layout_marginRight="18dp"
+        android:text="@string/dicas_para_treino_com_halter"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/text_alimentacao"
+        app:layout_constraintTop_toBottomOf="@id/linear_habits1"
+        tools:ignore="RtlHardcoded" />
+
+    <LinearLayout
+        android:id="@+id/linear_habits2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear_habits1">
+
+        <ImageView
+            android:id="@+id/image_borba"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/ic_borba" />
+
+        <ImageView
+            android:id="@+id/image_aerobico"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_bruce"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_borba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:fontFamily="@font/cabin"
+        android:gravity="center"
+        android:text="@string/dicas_para_abdominais"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/linear_habits1"
+        app:layout_constraintTop_toBottomOf="@id/linear_habits2"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/text_treino_bruce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:fontFamily="@font/cabin"
+        android:gravity="center"
+        android:layout_marginRight="18dp"
+        android:text="@string/dicas_para_exerc_cios_aer_bicos"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/text_alimentacao"
+        app:layout_constraintTop_toBottomOf="@id/linear_habits2"
+        tools:ignore="RtlHardcoded" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brown_800"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/image_home"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/home_17_svgrepo_com" />
+
+        <ImageView
+            android:id="@+id/image_gym_halter"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/gym_svgrepo_com" />
+
+        <ImageView
+            android:id="@+id/image_plus"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/add_plus_svgrepo_com" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

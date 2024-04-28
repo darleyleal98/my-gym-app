@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MyGym</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="criar_exerc_cio">Criar exercício</string>
+    <string name="nome">Nome</string>
+    <string name="adicionar_imagem">Adicionar imagem</string>
+    <string name="criar">Criar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="remocao_exercicio">Remoção de convidado</string>
+    <string name="deseja_remover">Deseja remover convidado da lista?</string>
+    <string name="remover">Remover</string>
+    <string name="removido_com_sucesso">Convidado removido com sucesso.</string>
+    <string name="total">Total</string>
+    <string name="criar_treino">CRIAR TREINO</string>
+    <string name="descri_o">Descrição</string>
+    <string name="my_gym">My Gym</string>
+    <string name="phrase">A força que você busca mora dentro de você.</string>
+    <string name="dicas">Dicas para ter bons hábitos</string>
+
+    <string name="_10_dicas_alimentacao">Dicas para alimentação</string>
+    <string name="dicas_para_treino_com_halter">Dicas para treino com halter</string>
+    <string name="dicas_para_abdominais">Dicas para abdominais</string>
+    <string name="dicas_para_exerc_cios_aer_bicos">Dicas para exercícios aeróbicos</string>
+    <string name="mantenha_a_forma">Mantenha a forma correta: Certifique-se de que está realizando o exercício corretamente para evitar lesões e maximizar a eficácia do exercício.</string>
+    <string name="respire_corretamente">Respire corretamente: Respire durante a parte mais fácil do exercício e expire durante a parte mais difícil. Isso pode ajudar a manter um ritmo constante e a tornar o exercício mais eficaz.</string>
+    <string name="nao_se_apresse">Não se apresse: Faça cada repetição lentamente e com controle. Isso pode ajudar a aumentar a intensidade do exercício e a torná-lo mais eficaz.</string>
+    <string name="aqueca_antes_de_comecar">Aqueça antes de começar: Antes de iniciar qualquer exercício aeróbico, é importante aquecer seu corpo com alguns alongamentos leves e atividade física de baixa intensidade.</string>
+    <string name="mantenha_o_ritmo">Mantenha um ritmo constante: Tente manter um ritmo constante durante todo o exercício. Isso pode ajudar a maximizar a eficácia do exercício e evitar lesões.</string>
+    <string name="hidrate_se">Hidrate-se: Beba água antes, durante e após o exercício para manter-se hidratado e evitar a fadiga.</string>
+    <string name="coma_proteinas">Coma proteínas: Consuma alimentos ricos em proteínas após o treino para ajudar na recuperação muscular. Isso pode incluir carnes magras, ovos, tofu ou um shake de proteína.</string>
+    <string name="hidrate_se_alim">Hidrate-se: Beba água antes, durante e após o treino para manter-se hidratado. A desidratação pode afetar seu desempenho e recuperação.</string>
+    <string name="nao_pule_refeicoes">Não pule refeições: Certifique-se de comer regularmente para fornecer ao seu corpo a energia de que precisa para o treino. Isso pode incluir três refeições principais e lanches saudáveis entre elas.</string>
+    <string name="mantenha_a_forma_correta">Mantenha a forma correta: Certifique-se de que está realizando o exercício corretamente para evitar lesões e maximizar a eficácia do exercício.</string>
+    <string name="descanse_adequadamente">Descanse adequadamente: Certifique-se de descansar adequadamente entre os treinos para permitir que seus músculos se recuperem e cresçam.</string>
+    <string name="ajuste_o_peso">Ajuste o peso conforme necessário: Não tenha medo de ajustar o peso dos halteres conforme necessário. Se um exercício estiver muito fácil ou muito difícil, mude o peso para se adequar ao seu nível de força</string>
+    <string name="dias_da_semana">Dias da semana</string>
+    <string name="atualizar_treino">Atualizar treino</string>
+    <string name="atualizar">ATUALIZAR</string>
+    <string name="deletar_treino">Deletar treino</string>
+    <string name="voc_tem_certeza_quer_remover_esse_treino">Deseja remover esse treino?</string>
+    <string name="digite_o_nome_do_treino">Digite o nome do treino</string>
+    <string name="series">Series</string>
+    <string name="repeti_es">Repetições</string>
+    <string name="carga">Carga</string>
+    <string name="salvar">SALVAR</string>
+</resources>
