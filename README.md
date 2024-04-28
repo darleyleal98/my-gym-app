@@ -15,8 +15,4 @@
    Dicas para uma alimentação para treinos com halteres:
 </p>
 <br>
-<p>
-   Dicas para uma alimentação mais saudável:
-</p>
-<br>
 <img src="https://github.com/darleyleal98/my-gym-app/assets/132721098/fe2785ec-3b4f-45d9-ba94-8ffc7ecb8725" </img>
